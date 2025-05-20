@@ -1,2 +1,2 @@
-# mano-facil
+# MANOFACIL
 Repositorio para la aplicación "MANOFACIL"
