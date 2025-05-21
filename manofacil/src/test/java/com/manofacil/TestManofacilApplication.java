@@ -1,4 +1,4 @@
-package com.manofacil.manofacil;
+package com.manofacil;
 
 import org.springframework.boot.SpringApplication;
 

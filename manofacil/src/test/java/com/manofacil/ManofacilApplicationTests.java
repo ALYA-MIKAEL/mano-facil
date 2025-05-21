@@ -1,4 +1,4 @@
-package com.manofacil.manofacil;
+package com.manofacil;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
