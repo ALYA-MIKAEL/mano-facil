@@ -1,6 +1,7 @@
 package com.manofacil.controller;
 
 import com.manofacil.dto.UsuarioRequestDTO;
+import com.manofacil.dto.UsuarioResponseDTO;
 import com.manofacil.entity.Usuario;
 import com.manofacil.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,7 @@ public class UsuarioController {
         return usuarioService.registrarUsuario(dto);
     }
     @GetMapping
-    public List<Usuario> listar() {
+    public List<UsuarioResponseDTO> listarUsuarios() {
         return usuarioService.listarUsuarios();
     }
 
